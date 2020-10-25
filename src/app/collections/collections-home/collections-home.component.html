@@ -1,0 +1,31 @@
+<!-- <app-divider>
+    Table Component
+</app-divider>
+<app-table [headers]= "headers" [data]="data" class="striped"></app-table> -->
+
+<div class="ui inverted segment">
+    <app-divider>Application Form</app-divider>
+</div>
+
+<app-tabs>
+
+    <!-- <a class="item" 
+    [routerLink]="['./']" 
+    routerLinkActive='active'
+    [routerLinkActiveOptions]="{exact: true}"
+    >Biography</a>
+    <a class="item" routerLink='companies' routerLinkActive='active'>Companies</a>
+    <a class="item" routerLink='partners' routerLinkActive='active'>Partners</a> -->
+
+    <a class="item" 
+    [routerLink]="['./']" 
+    routerLinkActive='active'
+    [routerLinkActiveOptions]="{exact: true}"
+    >Personal Information</a>
+    <a class="item" routerLink='applydetails' routerLinkActive='active'>Apply For</a>
+    <a class="item" routerLink='educationdetails' routerLinkActive='active'>Education Details</a>
+    <a class="item" routerLink='additionaldetails' routerLinkActive='active'>Additional Details</a>
+    <a class="item" routerLink='incomedetails' routerLinkActive='active'>Income Details</a>
+
+</app-tabs>
+
